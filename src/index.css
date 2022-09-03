@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-image: url(./img/fondo-body4.png);
+    background-position: center;
+    background-size: auto;
+}
+
+form{
+    background-image: url(./img/Pizarra.png);
+    background-position: center;
+    border-radius: 10%;
+    background-size: cover;
+    text-align: center;
+}
+
+#title-form{
+    color: white;
+    text-shadow: 1px 1px 1px 1px #18181b;
+}
+#placeholder{
+    background-color: #fefefe4f;
+    color:antiquewhite;
+    border-radius: 2em;
+    *padding: 10px;
+    width: 80%;
+}
+
+#button-form{
+    box-shadow: 0.3px 0.2px 0.2px 0.1px white;
+    background-color: aliceblue;
+}
+
+#button-form:hover{
+    background-color: rgb(138, 136, 136);
+    box-shadow: #18181b;
+}
+#button-form:active{
+    background-color: rgb(0, 239, 12);
+    transform-style:initial;
+    transform: scale(120%);
+    transition: all;
+    
+}
+#button-form{
+    transition: linear 0.5s;
+}
+
+#no-tarea{
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    background-color: #181;
+    border-radius: 5em;
+}
+
+#gran-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap:40px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    *background-image: linear-gradient(#18181b, #181, #18181b)
+}
+
+.card{
+    background-image: url(./img/Fondo-car3.png);
+    background-position: center;
+    padding: auto;
+    border-radius: 20px;
+    margin-top: 2em;
+    box-shadow: 2px 2px 2px 2px #18181b;
+    
+
+}
+
+
+input[type="checkbox"] + label {
+    color: red;
+    font-weight: bold;
+    *margin: 0.5em;
+}
+
+input[type="checkbox"]:checked + label {
+    color: greenyellow;
+    font-weight: bold;
+}
+
+
+#check{
+    flex-basis: 100%;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    margin-right: -3em !important;
+    margin-left: 8%;
+    background-color: beige;
+    border-radius: 0.7em;
+    width: 8em;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#label{
+    *margin-right: 1em ;
+    margin-left: 0;
+    display: inline;
+}
+
+#button{
+    flex-basis: 100%;
+    margin-top: 1.5em;
+    margin-bottom: 1.2em;
+    margin-left: 20%;
+    background-color: beige;
+    border-radius: 0.7em;
+    width: 8em;
+    *display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#button:hover{
+    transform: scale(120%);
+    background-color: rgb(255, 8, 8);
+    color: white;
+    *text-transform: uppercase;
+
+}
+
+#button:active{
+    transform: scale(150%);
+    background-color: rgb(240, 19, 19);
+    color: white;
+}
+#button{
+    transition: linear 0.3s ;
+}
+
+#h1 {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.5px 0.5px black;
+    flex-basis: 100%;
+    font-size: 1rem;
+    text-transform: uppercase;
+    align-self: center;
+    text-align: center;
+    padding-top: 2em;
+    margin-bottom: 1em;
+}
+
+#p{
+    font-weight: 500;
+    color: rgb(166, 166, 166);
+    text-shadow: 0.4px 0.4px rgb(0, 0, 0);
+    flex-basis: 100%;
+    font-size: 1rem;
+    padding-right: auto;
+    overflow-wrap: break-word;
+    
+    text-align: center;
+    text-justify: auto;
+    
+}
+
